@@ -1,0 +1,104 @@
+* { box-sizing: border-box; }
+
+body { background-color: #3F2860; 
+		color: #3F2860;
+		font-family: Verdana, Arial, sans-serif; }
+ 
+header { background-color: #9BC1C2; 
+		 background-image: url(lily-header.jpg);
+		 background-position: right;
+		 background-repeat: no-repeat;
+		 height: 150px; }
+		 
+h1 {padding-top: 50px;
+	padding-left: 2em; }
+	
+	
+ nav {  float: left;
+		width: 160px;
+		font-weight: bold;
+		padding: 1em; }
+		
+		
+nav a:link { color: #3F2860;}
+nav a:visited { color: #497777;}
+nav a:hover { color: #A26100;
+			  border: 3px inset #333333; }
+
+nav ul { list-style-type: none; margin: 0; padding: 0; 
+}			  
+
+.studio {font-style: italic;
+}
+
+main { margin-left: 170px;
+       padding-top: 1em;
+	   padding-right: 2em;
+	   display: block; 
+}
+	   
+.floatleft { float: left;
+			 margin-right: 4em; 
+} 
+
+nav a { display:block;
+		text-decoration: none;
+		font-weight: bold;
+		padding: 1em;
+		border: 5px outset #CCCCCC;
+		margin-bottom: 1em;
+		text-align: center;
+}
+		
+footer { font-size: .60em;
+		 background-color: #9BC1C2;
+		 font-style: italic;
+		 text-align: center;
+		 padding: 1em; 
+}
+		
+.clear { clear: both;
+}
+
+#wrapper { background-color: #F5F5F5;
+		margin-left: auto;
+		  margin-right: auto;
+		  width: 80%;
+		  min-width: 1200px;
+		  max-width: 1480px;
+}
+		  
+
+
+
+td, th	{ border: 1px solid #3F2860;
+		  padding: 5px; }
+
+
+ 
+caption { margin: 1em;
+		  font-weight: bold;
+		  font-size: 120%;}	  
+		  
+header, nav, main, footer { display: block; }
+
+label { float: left;
+		text-align: right;
+        font-weight: bold;
+		width: 10em;
+		padding-right: 1em;
+		display: block;}
+		
+input, textarea { margin-bottom: 2em;
+				 display: block;}
+				 
+				 /*
+#mySubmit { margin-left: 15em;}
+*/
+
+form {padding: 3em;}
+
+
+	
+
+       

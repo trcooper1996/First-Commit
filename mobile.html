@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title></title>
+	<style>
+		header,nav,footer,figure,figcaption,main, aside{
+			display:block;
+			
+		}
+		*{
+			box-sizing:borderbox;
+		}
+		body{
+			font-family:Verdana, Geneva,Tahoma, sans-serif;
+			background-color:#00005D;
+		}
+		
+		header{
+			background-color:#B3C7E6;
+			color:#00066;
+			width:80%;
+			margin:auto;
+		}
+		
+		main{
+			margin-left:155px;
+			padding:20px;
+			background-color:#FFFFFF;
+			color:#000000;
+		}
+		
+		nav{
+			float:left;
+			width:150px;
+			letter-spacing:0.1em;
+			font-weight:bold;
+		}
+		
+		nav ul{
+			list-style-type:none;
+			margin:0;
+			padding:0;
+		}
+		
+		nav li{
+			padding:15px;
+		
+		nav a{
+			text-decoration:none;
+		}
+		
+		nava a:link{
+			color:#FFFFFF;
+		}
+		
+		nava a:visited{
+			color:#eaeaea;
+		}
+		
+		nava a:lhover{
+			color:#869dc7;
+		}
+		
+		footer{
+			font-size:80%;
+			font-style:italic;
+			text-align:center;
+		}
+		
+		aside{
+			float:right;
+			width:50px;
+			letter-spacing:0.1em;
+			font-weight:bold;
+		}
+		
+	</style>
+</head>
+
+<body>
+	<div>
+	<header role="banner">
+		<h1>Lighthouse Island Bistro</h1>
+		<p>This is my header</p>
+	</header>
+	<nav role="navigation">
+	<p>This is my navigation</p>
+		<ul>
+			<li><a href=index.html">Home</a></li>
+			<li><a href=index.html">Menu</a></li>
+			<li><a href=index.html">Directions</a></li>
+			<li><a href=index.html">Contact</a></li>
+
+		
+		</ul>
+	</nav>
+	<main><p>This is main part</p>
+	<figure>
+		<figcaption><img spellcheck="lighthouseisland.jpg" width="250" height="350" alt="Lighthouse, Built in 1870"/></figcaption>
+	</figure>
+	
+	<picture>
+			<source media="(min-width:1200px)" scrset="large.pg"/>
+			<source media="(min-width:800px)" scrset="medium.jpg"/>
+			<source media="(min-width:320px)" scrset="small.jpg"/>
+		
+	</picture>
+	
+	</main>
+	<aside>This is aside part
+	</aside>
+	
+	<footer role="contentinfo">
+		<p>This is my footer</p>
+		Copyright &copy; 2017
+	</footer>
+	
+	</div>
+	
+	
+</body>
